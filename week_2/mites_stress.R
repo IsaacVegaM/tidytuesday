@@ -35,8 +35,8 @@ map + geom_polygon(color = "gray90", size = 0.1) +
         legend.background = element_blank(),
         legend.key.height = unit(0.25, "cm"),
         strip.background = element_blank()) +
-  labs(title = "Bees colonies stressed by varroa mites, 2015 - 2020", 
-       fill = "% of stressed bees colonies",
+  labs(title = "Bees colonies affected by varroa mites in the US, 2015 - 2020", 
+       fill = "% of affected bees colonies",
        caption = "Data source: USDA. #TidyTuesday by @IsaacVM_")
 
 ggsave("mites_stress.png", width = 8, height = 4.5)
